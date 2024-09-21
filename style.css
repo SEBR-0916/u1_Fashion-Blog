@@ -1,0 +1,93 @@
+/* Border aspect confused. Must ask for help */
+
+/* Use a border only on the left side of the page's html element.
+It should have a width of 5px and a color of lightgray. */
+
+/* Ask how to do the line seperation if possible with <breakers> */
+/* Ask how to set up the entire page follow the singular indentation*/
+/* Ask if text-wrap is how you do it or if there is another way of doing it. */
+body {
+    min-height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem;
+}
+
+main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    display: flex;
+    color: tomato;
+    font-size: 50px;
+    font-weight: 1;
+    text-indent: 40px;
+}
+
+h4 {
+    display: flex;
+    justify-content: end;
+    color: tomato;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    display: flex;
+    text-wrap: 10px;
+}
+
+footer {
+    color: lightgray;
+}
+
+.dates {
+    font-size: 40px;
+    color: lightgrey;
+}
+
+.header-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-anch-li {
+    color: lightgray;
+    font-size: 27px;
+}
+
+.footer-anch-li {
+    color: tomato;
+}
+
+.p-headline {
+    font-size: 30px;
+}
+
+.p-1st-let {
+    color: lightgray;
+}
+
+#h2-bdp {
+    font-weight: 1;
+    text-indent: 40px;
+}

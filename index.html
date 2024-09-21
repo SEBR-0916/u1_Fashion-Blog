@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarte's List</title>
+    <style>
+        p.solid {border-style: solid;}
+    </style>
 </head>
 <body>
     <header>
         <h1>Sartre's List</h1>
-        <h2>Better-Dressed People</h2>
+        <h2 id="h2-bdp">Better-Dressed People</h2>
         
         <nav>
-            <ul>
-                <li><a href="..." target="_blank">Women's</a></li>
-                <li><a href="..." target="_blank">Men's</a></li>
-                <li><a href="..." target="_blank">On the Street</a></li>
-                <li><a href="..." target="_blank">The Catwalk</a></li>
-                <li><a href="..." target="_blank">AdWatch</a></li>
-                <li><a href="..." target="_blank">About</a></li>
+            <ul class="header-ul">
+                <li><a href="#" class="header-anch-li">Women's</a></li>
+                <li><a href="#" class="header-anch-li">Men's</a></li>
+                <li><a href="#" class="header-anch-li">On the Street</a></li>
+                <li><a href="#" class="header-anch-li">The Catwalk</a></li>
+                <li><a href="#" class="header-anch-li">AdWatch</a></li>
+                <li><a href="#" class="header-anch-li">About</a></li>
             </ul>
         </nav>
         
@@ -27,9 +30,10 @@
     
         <break>
             <article>
-                <time>2011/12/13</time>
-                <h2>On the Street in Brooklyn</h2>
-                <h1>C</h1>
+                <time class="dates">11/12/13</time>
+                <h2 class="p-headline">On the Street in Brooklyn</h2>
+                <img src="blog-image-1.jpg">
+                <h1 class="p-1st-let">C</h1>
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, atque veritatis hic assumenda obcaecati placeat quos natus. Ratione soluta libero excepturi, expedita iusto amet quaerat, dignissimos temporibus cupiditate, harum explicabo.
                     ray culpa strumptown, flexitarian ex Odd Future do Fugiat Wes Anderson proident 3 wolf moon officia bitters small batch.
                     Et consequat do, nulla you probably haven't heard of them High Life scenester.
@@ -39,13 +43,16 @@
                     Magna ut Schlitz flexitarian, vinyl craft beer proident yr forage 8-bit ethical sustainable placeat retro.
                     Officia pickled beard, adipisicing gluten-free sint craft beer quis thundercats id 3 wolf moon fashion axe. 
                 </p>
+                <h4>Continues...</h4>
             </article>
         </break>
 
         <break>
             <article>
-                <time>11/11/13</time>
-                <h1>S</h1>
+                <time class="dates">11/11/13</time>
+                <h2 class="p-headline">Vintage in Vogue</h2>
+                <img src="blog-image-2.jpg">
+                <h1 class="p-1st-let">S</h1>
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate quaerat aperiam, repudiandae similique dolorum id in velit sunt eligendi aspernatur eos quod incidunt nulla cumque. Consequuntur animi labore atque!.
                     elfies sunt Tumblr, delectus small batch DIY umami sint. Polaroid chambray selfies McSweeney's cosby sweater, Pitchfork tattooed assumenda Wes Anderson Blue Bottle twee Carles ennui.
                     Nisi locavore fugiat sapiente salbia aliqua.
@@ -54,19 +61,39 @@
                     dreamcatcher iPhone typewriter, tote bag four loko fanny pack master cleanse organic PBR reprehenderit actuially.
                     Craft beer drinking vinegar wayfarers, pork belly narwhal pariatur polaroid cupidatat in 8-bit distullery anim literally.
                 </p>
+                <h4>Continues...</h4>
             </article>
         </break>
     </main>
-    
+
     <footer>
         <nav>
-            <ul>
-                <li><a href="..." target="_blank">Women's</a></li>
-                <li><a href="..." target="_blank">Men's</a></li>
-                <li><a href="..." target="_blank">On the Street</a></li>
-                <li><a href="..." target="_blank">The Catwalk</a></li>
-                <li><a href="..." target="_blank">AdWatch</a></li>
-                <li><a href="..." target="_blank">About</a></li>
+            <ul class="footer-ul">
+                <!-- <li><a href="#" class="footer-anch-li">Home</a> | </li>
+                <li><a href="#" class="footer-anch-li">Women's</a> | </li>
+                <li><a href="#" class="footer-anch-li">Men's</a> | </li>
+                <li><a href="#" class="footer-anch-li">On the Street</a> | </li>
+                <li><a href="#" class="footer-anch-li">The Catwalk</a> | </li>
+                <li><a href="#" class="footer-anch-li">AdWatch</a> | </li>
+                <li><a href="#" class="footer-anch-li">About</a> | </li>
+                <li><a href="#" class="footer-anch-li">Tips</a> | </li> -->
+                
+                <li><a href="#" class="footer-anch-li">Home</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">Women's</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">Men's</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">On the Street</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">The Catwalk</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">AdWatch</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">About</a></li>
+                <li>|</li>
+                <li><a href="#" class="footer-anch-li">Tips</a></li>
+                <li>|</li>
             </ul>
             <h3>&copy2013Valet Industries, Inc</h3>
         </nav>
