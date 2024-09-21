@@ -4,8 +4,7 @@
 It should have a width of 5px and a color of lightgray. */
 
 /* Ask how to do the line seperation if possible with <breakers> */
-/* Ask how to set up the entire page follow the singular indentation*/
-/* Ask if text-wrap is how you do it or if there is another way of doing it. */
+/* Ask why the psuedo element isn't functioning as it should be*/
 body {
     min-height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,16 +26,16 @@ main, footer {
 h1 {
     display: flex;
     color: tomato;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 1;
-    text-indent: 40px;
+    text-indent: 1rem;
 }
 
 h4 {
     display: flex;
     justify-content: end;
     color: tomato;
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
@@ -46,15 +45,26 @@ img {
 
 p {
     display: flex;
-    text-wrap: 10px;
 }
 
 footer {
     color: lightgray;
 }
 
+article {
+    margin-bottom: 4rem;
+    border: lightgray 2px solid;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgray;
+}
+
 .dates {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: lightgrey;
 }
 
@@ -72,7 +82,7 @@ footer {
 
 .header-anch-li {
     color: lightgray;
-    font-size: 27px;
+    font-size: 2rem;
 }
 
 .footer-anch-li {
@@ -80,14 +90,11 @@ footer {
 }
 
 .p-headline {
-    font-size: 30px;
-}
-
-.p-1st-let {
-    color: lightgray;
+    font-size: 2.25rem;
 }
 
 #h2-bdp {
     font-weight: 1;
-    text-indent: 40px;
+    text-indent: 1rem;
+    font-size: 2rem;
 }
