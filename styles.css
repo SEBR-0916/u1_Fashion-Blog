@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-left-style: solid; color: lightgray; border-width: 5px;
+    min-height: 100vh;
+    max-width: 1000px; margin: auto;
+    font-family: sans-serif;
+    
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    margin-bottom: 4rem;
+    border-bottom: solid;
+    border-color: lightgray;
+    word-wrap: normal;
+    
+}
+h1{
+    color: tomato;
+    font-size: 50px;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+h3{
+    align-content: space-between;
+    color: lightgray;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h5 {font-size: 40px;
+    color: black;
+}
+
+.continue {
+    display: flex;
+    justify-content: flex-end;
+    color: tomato;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    
+}
+.blog-post{
+    color: black;
+    font-family: "Gowun Batang", system-ui;
+}
+
+p::first-letter {
+    font-size: 5rem;
+    color: lightgray;
+  }
+  
+
+.long-ways {
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 35%;
+    color: lightgray;
+    padding: 0;
+    
+}
+
+.footer-list {
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    color: tomato;
+    padding: 0;
+    margin-right: 35%;
+    
+      
+}
+
+img{
+     max-width: 100%;
+}
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;  
+}
+
+li{
+    color: lightgray;
+}
+
+
+
+
+
+
+
+/* notes! used sites like MDN web docs,W3 schools for syntax and codes*/ 
+/* also found a really nice youtube guide from user EdRoh titled */
+/* "The only css layout guide you'll ever need" broke things down very nicely */
+/*following along with the guide was VERY helpful however some of your links are 404'd*/
+
