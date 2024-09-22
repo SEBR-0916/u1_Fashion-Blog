@@ -1,16 +1,15 @@
-/* Border aspect confused. Must ask for help */
-
-/* Use a border only on the left side of the page's html element.
-It should have a width of 5px and a color of lightgray. */
-
-/* Ask how to do the line seperation if possible with <breakers> */
-/* Ask why the psuedo element isn't functioning as it should be*/
 body {
     min-height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 1000px;
     margin: auto;
 }
+
+/* Border-left property */
+html{
+    border-left: lightgray 5px solid;
+}
+
 
 header {
     padding: 1rem;
@@ -53,8 +52,12 @@ footer {
 
 article {
     margin-bottom: 4rem;
-    border: lightgray 2px solid;
     padding-bottom: 2rem;
+}
+
+hr {
+    border-color: rgba(211, 211, 211, 50%);
+    width: auto;
 }
 
 p::first-letter {
