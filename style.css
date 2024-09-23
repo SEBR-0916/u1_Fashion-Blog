@@ -31,7 +31,7 @@ div {
 
 body {
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: sans-serif; 
     max-width: 1000px;
 }
 
@@ -57,7 +57,8 @@ footer > * a {
 }
 
 header > * a {
-    color: lightgrey
+    color: lightgrey;
+    text-decoration: underline
 }
 
 footer {
@@ -90,5 +91,9 @@ article > p::first-letter {
     font-size: 4rem;
     float: left;
     line-height: 85%;
-    
+}
+
+time {
+    color: lightgrey;
+    font-size: 2rem
 }
